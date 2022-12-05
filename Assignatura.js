@@ -12,7 +12,7 @@ console.log(Asignatura);
 //Exercici 1
 function listarPropiedades(Asignatura){
     var result = Object.keys(Asignatura);
-    return result;
+    return result.toString();
 }
 listarPropiedades(Asignatura);
 
